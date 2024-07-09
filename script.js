@@ -40,12 +40,15 @@ console.log(masu);
 
 let count = 0
 
-masu[0].addEventListener('click', () => {
-    count++;
-    // 奇数偶数の判定
-    if (count % 2 === 1) {
-        masu[0].textContent = '〇'
-    } else {
-        masu[0].textContent = '×'
-    }
-})
+for (let i = 0; i < 9; i++) {
+    masu[i].addEventListener('click', () => {
+        count++;
+        // 奇数偶数の判定
+        if (count % 2 === 1) {
+            masu[i].textContent = '〇'
+        } else {
+            masu[i].textContent = '×'
+        }
+    })
+}
+
