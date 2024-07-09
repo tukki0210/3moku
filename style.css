@@ -10,4 +10,7 @@
     height: 300px;
     margin: 0;
     border: 1px solid black;
+    font-size: 200px;
+    text-align: center;
+    line-height: 1.5;
 }
